@@ -1,0 +1,37 @@
+{
+  "name": "react-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "tailwind": "npx tailwindcss -o ./src/styles/tailwind.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.1.1",
+    "autoprefixer": "^10.4.16",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "antd": "^5.11.1",
+    "axios": "^1.6.1",
+    "i18next": "^23.7.6",
+    "i18next-browser-languagedetector": "^7.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^13.4.1",
+    "react-router-dom": "^6.18.0",
+    "zustand": "^4.4.6"
+  }
+}
